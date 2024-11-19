@@ -1,0 +1,13 @@
+<html>
+<script>
+function teste(){
+var configuracaoFala = new SpeechSynthesisUtterance("teste fala. VAmos ver.");
+window.speechSynthesis.speak(configuracaoFala);
+}
+</script>
+
+<body>
+<input type="button" value="OK" onclick="teste();">
+
+</body>
+</html>
