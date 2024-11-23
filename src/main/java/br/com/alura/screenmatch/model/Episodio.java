@@ -11,7 +11,7 @@ public class Episodio {
     private LocalDate dataLancamento;
 
     public Episodio(Integer numeroTemporada, DadosEpisodio dadosEpisodio) {
-        this.numeroEpisodio = numeroTemporada;
+        this.temporada = numeroTemporada;
         this.titulo = dadosEpisodio.titulo();
         this.numeroEpisodio = dadosEpisodio.numero();
         try {
